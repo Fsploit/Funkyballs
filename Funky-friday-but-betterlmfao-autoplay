@@ -5,17 +5,4 @@
 -- Version 4.4
 
 
-local Library = loadstring(game:HttpGet("https://www.soggy-ware.cf/Libs/PromptGui.lua"))()
-Library:New({
-	Title = "Funky Friday Script",
-    Footer = "This was re-made from Fsploit",
-    Text = "Credits the owners.",
-    Icon = "http://www.roblox.com/thumbs/asset.ashx?assetid=10010679532&x=100&y=100&format=png",
-    Yes = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/Blaze-/main/Gyatt-funky-balls"))()
-		print("Yes Pressed")
-	end,
-	Cancel = function()
-		print("Cancel Pressed")
-	end
-})
